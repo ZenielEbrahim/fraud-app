@@ -1,0 +1,33 @@
+body {
+	height: 100vh !important;
+	background-color: beige !important;
+	color: orange !important;
+}
+
+.center {
+	background-color: white;
+	height: 50vh;
+	width: 60vw;
+	margin: 20vh auto;
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	height: 250px;
+	width: auto;
+	margin-top: 2rem;
+}
+
+h2 {
+	font-size: 12rem;
+	font-weight: 600;
+}
+
+p {
+	min-height: 1.1rem;
+	margin: 4px;
+}

@@ -1,0 +1,8 @@
+ url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(
+		address
+	)}.json?access_token=pk.eyJ1IjoiemVuaWVsIiwiYSI6ImNrOGZ2bXJkYTA2eWwzZG1ra3BuMngzZzEifQ.Tfdp1W8ZlIq0LTgdghg5jA`;
+
+
+
+
+    	const url = `http://api.weatherstack.com/current?access_key=7f281f3eaacc6e8156d089c44b7d7481&query=${latitude},${longitude}`;
